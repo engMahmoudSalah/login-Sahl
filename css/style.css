@@ -783,3 +783,8 @@ body{
 /* @media  screen and (max-width:767px){
     
 } */
+#pwMeter{margin-top:6px}
+#pwMeter .pw-bar{height:6px;border-radius:99px;background:rgba(127,127,127,.25);overflow:hidden}
+#pwMeter .pw-bar span{display:block;height:100%;width:0;border-radius:99px;transition:width .25s,background .25s}
+#pwMeter .pw-txt{font-size:13px;margin-top:4px;min-height:1em}
+@media (prefers-reduced-motion:reduce){#pwMeter .pw-bar span{transition:none}}
