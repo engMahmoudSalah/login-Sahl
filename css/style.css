@@ -794,3 +794,5 @@ body{
 .main .logo img{ position: static !important; width: auto !important; max-width: 100%; }
 .main .logo img:first-child{ height: 80px !important; margin-bottom: -18px; }
 .main .logo img:last-child{ height: 64px !important; }
+
+.mainInput img[role=button]:focus-visible{outline:3px solid #384CDF;outline-offset:2px;border-radius:6px}
